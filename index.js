@@ -11,7 +11,7 @@ const pushover = new Push({
 function sendNotification(message) {
     const msg = {
         message: message,
-        title: "THÔNG BÁO TỪ CHECK FLIP",
+        title: "THÔNG BÁO TỪ CHECK Taskon",
         sound: "echo",
         priority: 1,
     };
@@ -29,7 +29,7 @@ async function QuestOnchain(url) {
     const listNameQuest = [
         'Onchain Playground(R3): Stake $10 at WStaking',
         '$600,000 GIVEAWAY - JOIN NOW!',
-        // '$BAM Holder Quest'
+        '$BAM Holder Quest'
     ];
     try {
         const res = await axios.post(url, {
@@ -85,11 +85,11 @@ app.get('/', async (req, res) => {
 app.get('/check', async (req, res) => {
     try {
         let statusReturn = await QuestOnchain("https://api.taskon.xyz/v1/getCampaignList");
-        console.log(statusReturn)
         if (statusReturn) {
-            setInterval(() => {
+            for (let i=0; i<20; i++) {
                 sendNotification("+++++LAM VIEC THOI+++++.");
-            }, 5000)
+                await new Promise((resolve) => setTimeout(resolve, 2000));
+            }
             console.log("RUNING...")
         }
 

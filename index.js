@@ -29,7 +29,8 @@ async function QuestOnchain(url) {
     const listNameQuest = [
         'Onchain Playground(R3): Stake $10 at WStaking',
         '$600,000 GIVEAWAY - JOIN NOW!',
-        '$BAM Holder Quest'
+        '$BAM Holder Quest',
+        ' Onchain Playground(R3): Stake $IRWA at IncomRWA'
     ];
     try {
         const res = await axios.post(url, {

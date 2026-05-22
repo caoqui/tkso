@@ -89,8 +89,8 @@ app.get('/check', async (req, res) => {
     try {
         let statusReturn = await QuestOnchain("https://api.taskon.xyz/v1/getCampaignList");
         if (statusReturn) {
-            for (let i=0; i<20; i++) {
-                // sendNotification("+++++LAM VIEC THOI+++++.");
+            for (let i=0; i<10; i++) {
+                sendNotification("+++++LAM VIEC THOI+++++.");
                 await new Promise((resolve) => setTimeout(resolve, 2000));
             }
             console.log("RUNING...")

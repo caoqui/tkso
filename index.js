@@ -30,7 +30,9 @@ async function QuestOnchain(url) {
         'Onchain Playground(R3): Stake $10 at WStaking',
         '$600,000 GIVEAWAY - JOIN NOW!',
         '$BAM Holder Quest',
-        ' Onchain Playground(R3): Stake $IRWA at IncomRWA'
+        ' Onchain Playground(R3): Stake $IRWA at IncomRWA',
+        'Stake $12, earn $3.5 + 35% pool APR — 296% combined APY',
+        'Pizza day Stake and Airdrop'
     ];
     try {
         const res = await axios.post(url, {
@@ -88,7 +90,7 @@ app.get('/check', async (req, res) => {
         let statusReturn = await QuestOnchain("https://api.taskon.xyz/v1/getCampaignList");
         if (statusReturn) {
             for (let i=0; i<20; i++) {
-                sendNotification("+++++LAM VIEC THOI+++++.");
+                // sendNotification("+++++LAM VIEC THOI+++++.");
                 await new Promise((resolve) => setTimeout(resolve, 2000));
             }
             console.log("RUNING...")

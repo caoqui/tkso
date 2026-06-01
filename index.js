@@ -4,8 +4,8 @@ const cheerio = require('cheerio');
 const express = require('express');
 const fs = require("fs");
 const pushover = new Push({
-    token: "az7vqqic84dsqxmm7mhyvqjoycrn3c", // Thay bằng API Token của bạn
-    user: "u8dfzijeho9j5eepxszdifvmy3v4e8", // Thay bằng User Key của bạn
+    token: "a6x9wf2edeqd89g5yfj55od2zrct5o", // Thay bằng API Token của bạn
+    user: "uyzhx2caqcmwkp3657cyqwxf9wu2ap", // Thay bằng User Key của bạn
 });
 
 function sendNotification(message) {
@@ -32,7 +32,11 @@ async function QuestOnchain(url) {
         '$BAM Holder Quest',
         ' Onchain Playground(R3): Stake $IRWA at IncomRWA',
         'Stake $12, earn $3.5 + 35% pool APR — 296% combined APY',
-        'Pizza day Stake and Airdrop'
+        'Pizza day Stake and Airdrop',
+        'Stake $13, earn $4.5 + 35% pool APR — 330% combined APY',
+        'Mini Stake Airdrop',
+        'Round 2 - $600,000 GIVEAWAY - JOIN NOW!',
+        
     ];
     try {
         const res = await axios.post(url, {

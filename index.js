@@ -36,6 +36,7 @@ async function QuestOnchain(url) {
         'Stake $13, earn $4.5 + 35% pool APR — 330% combined APY',
         'Mini Stake Airdrop',
         'Round 2 - $600,000 GIVEAWAY - JOIN NOW!',
+        'Stake $12, earn $2.4 + 50% pool APR — 594% combined APR',
         
     ];
     try {

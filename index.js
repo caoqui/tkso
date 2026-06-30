@@ -37,7 +37,8 @@ async function QuestOnchain(url) {
         'Mini Stake Airdrop',
         'Round 2 - $600,000 GIVEAWAY - JOIN NOW!',
         'Stake $12, earn $2.4 + 50% pool APR — 594% combined APR',
-        'BSC BEACON TEMPLAR'
+        'BSC BEACON TEMPLAR',
+        'Round 3 - $1,200,000 GIVEAWAY - JOIN NOW!'
     ];
     try {
         const res = await axios.post(url, {

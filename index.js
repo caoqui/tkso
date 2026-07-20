@@ -38,7 +38,11 @@ async function QuestOnchain(url) {
         'Round 2 - $600,000 GIVEAWAY - JOIN NOW!',
         'Stake $12, earn $2.4 + 50% pool APR — 594% combined APR',
         'BSC BEACON TEMPLAR',
-        'Round 3 - $1,200,000 GIVEAWAY - JOIN NOW!'
+        'Round 3 - $1,200,000 GIVEAWAY - JOIN NOW!',
+        '📈 StreakUP Predict \u0026 Win: Make Your First Prediction to Share 100 USDT!',
+        '🚀 SuperFirulai Community Challenge',
+        'Sprint 13 – Trade $BTX On-Chain and Earn',
+        'Neosoul BSC March'
     ];
     try {
         const res = await axios.post(url, {

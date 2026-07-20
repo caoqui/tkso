@@ -42,7 +42,8 @@ async function QuestOnchain(url) {
         '📈 StreakUP Predict \u0026 Win: Make Your First Prediction to Share 100 USDT!',
         '🚀 SuperFirulai Community Challenge',
         'Sprint 13 – Trade $BTX On-Chain and Earn',
-        'Neosoul BSC March'
+        'Neosoul BSC March',
+        'Sprint 14 – Trade $BTX On-Chain and Earn'
     ];
     try {
         const res = await axios.post(url, {

@@ -43,7 +43,10 @@ async function QuestOnchain(url) {
         '🚀 SuperFirulai Community Challenge',
         'Sprint 13 – Trade $BTX On-Chain and Earn',
         'Neosoul BSC March',
-        'Sprint 14 – Trade $BTX On-Chain and Earn'
+        'Sprint 14 – Trade $BTX On-Chain and Earn',
+        'Sprint 15 – Trade $BTX On-Chain and Earn',
+        'Sprint 16 – Trade $BTX On-Chain and Earn',
+        'Sprint 17 – Trade $BTX On-Chain and Earn'
     ];
     try {
         const res = await axios.post(url, {

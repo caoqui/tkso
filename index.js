@@ -63,7 +63,8 @@ async function QuestOnchain(url) {
         'Sprint 37 – Trade $BTX On-Chain and Earn',
         'Sprint 38 – Trade $BTX On-Chain and Earn',
         'The Battle Begins. Trade to Win.',
-        'Join the FIRU Community Launch Campaign \u0026 Share a [73M+Firu] Prize Pool!'
+        'Join the FIRU Community Launch Campaign \u0026 Share a [73M+Firu] Prize Pool!',
+        'Daily $BTX On-Chain Trading Rewards'
 
     ];
     try {

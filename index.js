@@ -4,8 +4,8 @@ const cheerio = require('cheerio');
 const express = require('express');
 const fs = require("fs");
 const pushover = new Push({
-    token: "awmgiede9j2guqawgb4rv47mxh5a96", // Thay bằng API Token của bạn
-    user: "ua2josy8s8w3mcd2msq8w9p1b1iqt2", // Thay bằng User Key của bạn
+    token: "a3u54xozgbousg85ebwgrmwfs2w18p", // Thay bằng API Token của bạn
+    user: "uj3jgxhk16911go9kcgxguuoanrp95", // Thay bằng User Key của bạn
 });
 
 function sendNotification(message) {
@@ -43,10 +43,28 @@ async function QuestOnchain(url) {
         '🚀 SuperFirulai Community Challenge',
         'Sprint 13 – Trade $BTX On-Chain and Earn',
         'Neosoul BSC March',
-        'Sprint 14 – Trade $BTX On-Chain and Earn',
-        'Sprint 15 – Trade $BTX On-Chain and Earn',
-        'Sprint 16 – Trade $BTX On-Chain and Earn',
-        'Sprint 17 – Trade $BTX On-Chain and Earn'
+        'Sprint 20 – Trade $BTX On-Chain and Earn',
+        'Sprint 21 – Trade $BTX On-Chain and Earn',
+        'Sprint 22 – Trade $BTX On-Chain and Earn',
+        'Sprint 23 – Trade $BTX On-Chain and Earn',
+        'Sprint 24 – Trade $BTX On-Chain and Earn',
+        'Sprint 25 – Trade $BTX On-Chain and Earn',
+        'Sprint 26 – Trade $BTX On-Chain and Earn',
+        'Sprint 27 – Trade $BTX On-Chain and Earn',
+        'Sprint 28 – Trade $BTX On-Chain and Earn',
+        'Sprint 29 – Trade $BTX On-Chain and Earn',
+        'Sprint 30 – Trade $BTX On-Chain and Earn',
+        'Sprint 31 – Trade $BTX On-Chain and Earn',
+        'Sprint 32 – Trade $BTX On-Chain and Earn',
+        'Sprint 33 – Trade $BTX On-Chain and Earn',
+        'Sprint 34 – Trade $BTX On-Chain and Earn',
+        'Sprint 35 – Trade $BTX On-Chain and Earn',
+        'Sprint 36 – Trade $BTX On-Chain and Earn',
+        'Sprint 37 – Trade $BTX On-Chain and Earn',
+        'Sprint 38 – Trade $BTX On-Chain and Earn',
+        'The Battle Begins. Trade to Win.',
+        'Join the FIRU Community Launch Campaign \u0026 Share a [73M+Firu] Prize Pool!'
+
     ];
     try {
         const res = await axios.post(url, {
